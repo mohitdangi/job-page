@@ -37,8 +37,10 @@
         padding: 2px 120px;
     }
     .job-section {
-      background-color: #fff;
-      padding: 20px 0px;
+      background-color: whitesmoke;
+      margin-top: 10px;
+      padding: 20px 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
       /* text-align: center; */
     }
     .job-task{
@@ -205,12 +207,19 @@
     .company-info p {
       margin-bottom: 10px;
     }
-
+    .center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
     @media (max-width: 768px) {
   .job-page {
     padding: 5px 5px;
   }
+  /* .job-section {
+    width: 95%;
+  } */
   .column{
     width: 100%;
   }
@@ -235,11 +244,11 @@
     width: 50%;
   }
   .carousel-inner {
-    height: 200px; /* Adjust the height for mobile view */
+    height: 150px; /* Adjust the height for mobile view */
   }
 
  img {
-    height: 200px !important;
+    height: 150px !important;
  
     background: cover !important;
   }
@@ -301,9 +310,9 @@
         </div>
         
   </div>
-    <a class="button" href="https://www.example.com/apply">
+    <!-- <a class="button" href="https://www.example.com/apply">
       <i class="fas fa-briefcase icon"></i> Apply Now
-    </a>
+    </a> -->
     </div>
  
     <div class="strip">
@@ -423,6 +432,11 @@
       </p>
     </div>
   </div>
+    </div>
+    <div class="center">
+    <a class="button" href="https://www.example.com/apply">
+      <i class="fas fa-briefcase icon"></i> Apply Now
+    </a>
     </div>
     </div>
 </body>
